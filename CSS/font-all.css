@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Nastaliq';
+    src: url('../FONT/Nastaliq/IranNastaliq.ttf') format('truetype');
+  }
+  @font-face{
+    font-family: "vazir";
+    src: url(../FONT/Vazir/Vazir.eot) format(embeddedopentype);
+    src: url(../FONT/Vazir/Vazir.ttf) format(truetype),
+            url(../FONT/Vazir/Vazir.woff2) format(woff2),
+            url(../FONT/Vazir/Vazir.woff) format(woff);
+  }

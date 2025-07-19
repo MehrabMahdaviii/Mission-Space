@@ -1,0 +1,79 @@
+body{
+  font:1.8rem/1.7 "vazir" ;
+  color: #fff;
+}
+
+.section-title{
+  font:5rem "Nastaliq";
+  text-align: center;
+  color: #ffcc00;
+}
+.articles{
+  gap: 1rem;
+  direction: rtl;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 0px 20px;
+}
+.article-card{
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 12px;
+  margin-top: 2rem;
+  transition: all .3s ease;
+  padding: 2rem 3rem;
+  box-shadow: 0 0 8px rgba(0, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+.article-card:hover{
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.05);
+  transform:translateY(-4px);
+
+}
+.read-more {
+  font-size: 1.5rem;
+  color: #ffcc00;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.read-more:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .articles {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  body{
+    font:1.5rem/2.5rem "vazir" ;
+  }
+}
+
+@media (max-width:700px ){
+  .articles{
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

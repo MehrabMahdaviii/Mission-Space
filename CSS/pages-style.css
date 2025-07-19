@@ -1,0 +1,65 @@
+html{
+    direction: rtl;
+}
+.div-pages{
+    color: white;
+    font:3rem "vazir";
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+.tittle{
+    color:#ffcc00;
+    font:3rem "Nastaliq";
+    margin-top: 1rem;
+}
+
+.img-pages{
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.1);
+    width:90%;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.paragraph-pages{
+    text-align: center;
+    width: 80%;
+    font:2rem "vazir";
+}
+
+.btn{
+    color: #000;
+    padding: .5rem 1rem;
+    border-radius: 6px;
+    font:1rem "vazir";
+    background-color: #00f0ff;
+    border: 1px solid rgba(0, 0, 0, .2);
+    transition: background-color 0.3s  ease;
+}
+.btn:hover{
+    background-color: #ffcc00;
+    color: #000;
+}
+
+@media (max-width:500px){
+    .div_pages{
+        max-width: 300px;
+        font-size: 2rem;
+    }
+    .tittle{
+        font:3rem "Nastaliq";
+    }
+    .btn{
+        font:1rem "vazir";
+    }
+    .img-pages{
+        height: 200px;
+    }
+}
